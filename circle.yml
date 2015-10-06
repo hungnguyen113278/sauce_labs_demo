@@ -11,7 +11,7 @@ test:
     - cd sc-*-linux && ./bin/sc --user hungnguyen113278 --api-key 306d7aab-eaad-4973-8bd3-27c7090caf7e --readyfile ~/sauce_is_ready:
         background: true
     - while [ ! -e ~/sauce_is_ready ]; do sleep 1; done
-    - cp src/resource/runRegression.xml ./runRegression.xml
+    - javac -src/resource src runRegression.xml
     - ls
     - java -classpath .:lib/* runRegression.xml
   post:
