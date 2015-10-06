@@ -1,0 +1,13 @@
+<DataTest>
+	<TestModules>
+		<TestModule name="Search_001_SearchOnGoogle">
+			<invalidKeyword>jhsdf7rjhew783uhfhy73hucef73</invalidKeyword>
+			<validKeyword>Ha Ngoc An</validKeyword>
+		</TestModule>
+
+		<TestModule name="Search_002_SearchOnYahoo">
+			<invalidKeyword>uyhdfs78743frhfv7843huf</invalidKeyword>
+			<validKeyword>An Ha</validKeyword>
+		</TestModule>
+	</TestModules>
+</DataTest>

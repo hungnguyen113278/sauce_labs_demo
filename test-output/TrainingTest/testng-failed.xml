@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TrainingTest]" parallel="tests">
+  <parameter name="ipClient" value="192.168.189.158"/>
+  <parameter name="port" value="5555"/>
+  <parameter name="browser" value="firefox"/>
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="common.MethodListener"/>
+  </listeners>
+  <test name="Run on Firefox(failed)" parallel="tests">
+    <parameter name="port" value="5555"/>
+    <parameter name="ipClient" value="192.168.189.158"/>
+    <parameter name="browser" value="firefox"/>
+    <groups>
+      <run>
+        <include name="regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Search.Search_001_SearchOnGoogle">
+        <methods>
+          <include name="tearDown"/>
+          <include name="GoogleSearch_01_0_GoogleSearchInvalidText"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Search.Search_001_SearchOnGoogle -->
+    </classes>
+  </test> <!-- Run on Firefox(failed) -->
+</suite> <!-- Failed suite [TrainingTest] -->

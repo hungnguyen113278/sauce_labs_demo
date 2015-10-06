@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<automation instance="TrainingTest">
+ <instances>
+  <instance tag="TrainingTest">
+   <url>http://google.com.vn/</url>
+   <selenium ref="localchrome" /> 
+   <grid>no</grid>
+  </instance>
+ </instances>
+
+ <selenium>
+  <server tag="localfirefox">
+   <host>localhost</host>
+   <port>4444</port>
+   <driver>FirefoxDriver</driver>
+  </server>
+  <server tag="localie">
+   <host>localhost</host>
+   <port>4444</port>
+   <driver>InternetExplorerDriver</driver>
+  </server>
+  <server tag="localchrome">
+   <host>localhost</host>
+   <port>4444</port>
+   <driver>ChromeDriver</driver>
+  </server>
+ </selenium>
+</automation>

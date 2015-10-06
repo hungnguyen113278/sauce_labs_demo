@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <parameter name="browser" value="chrome"/>
+  <test name="Default test(failed)">
+    <classes>
+      <class name="Search.Search_001_SearchOnGoogle">
+        <methods>
+          <include name="tearDown"/>
+          <include name="GoogleSearch_02_0_GoogleSearchValidText"/>
+          <include name="GoogleSearch_01_0_GoogleSearchInvalidText"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Search.Search_001_SearchOnGoogle -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

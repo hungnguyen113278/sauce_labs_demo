@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TrainingTest" duration-ms="9928" started-at="2015-10-06T08:31:46Z" finished-at="2015-10-06T08:31:56Z">
+    <groups>
+      <group name="regression">
+        <method signature="Search_001_SearchOnGoogle.GoogleSearch_01_0_GoogleSearchInvalidText()[pri:0, instance:Search.Search_001_SearchOnGoogle@1d021b9]" name="GoogleSearch_01_0_GoogleSearchInvalidText" class="Search.Search_001_SearchOnGoogle"/>
+        <method signature="Search_002.GoogleSearch_01_0_GoogleSearchInvalidText()[pri:0, instance:Search.Search_002@149865b]" name="GoogleSearch_01_0_GoogleSearchInvalidText" class="Search.Search_002"/>
+      </group> <!-- regression -->
+    </groups>
+    <test name="Run on Chrome" duration-ms="6709" started-at="2015-10-06T08:31:46Z" finished-at="2015-10-06T08:31:52Z">
+      <class name="Search.Search_002">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Search.Search_002@149865b]" name="setup" is-config="true" duration-ms="6207" started-at="2015-10-06T15:31:46Z" finished-at="2015-10-06T15:31:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[35]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows 8.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="GoogleSearch_01_0_GoogleSearchInvalidText()[pri:0, instance:Search.Search_002@149865b]" name="GoogleSearch_01_0_GoogleSearchInvalidText" duration-ms="25" started-at="2015-10-06T15:31:52Z" description="Search an invalid text on Google" finished-at="2015-10-06T15:31:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoogleSearch_01_0_GoogleSearchInvalidText -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Search.Search_002@149865b]" name="tearDown" is-config="true" duration-ms="463" started-at="2015-10-06T15:31:52Z" finished-at="2015-10-06T15:31:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Search.Search_002 -->
+    </test> <!-- Run on Chrome -->
+    <test name="Run on Firefox" duration-ms="9928" started-at="2015-10-06T08:31:46Z" finished-at="2015-10-06T08:31:56Z">
+      <class name="Search.Search_001_SearchOnGoogle">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Search.Search_001_SearchOnGoogle@1d021b9]" name="setup" is-config="true" duration-ms="9601" started-at="2015-10-06T15:31:46Z" finished-at="2015-10-06T15:31:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[39]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows 7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="GoogleSearch_01_0_GoogleSearchInvalidText()[pri:0, instance:Search.Search_001_SearchOnGoogle@1d021b9]" name="GoogleSearch_01_0_GoogleSearchInvalidText" duration-ms="1" started-at="2015-10-06T15:31:55Z" description="Search an invalid text on Google" finished-at="2015-10-06T15:31:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoogleSearch_01_0_GoogleSearchInvalidText -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Search.Search_001_SearchOnGoogle@1d021b9]" name="tearDown" is-config="true" duration-ms="314" started-at="2015-10-06T15:31:55Z" finished-at="2015-10-06T15:31:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Search.Search_001_SearchOnGoogle -->
+    </test> <!-- Run on Firefox -->
+  </suite> <!-- TrainingTest -->
+</testng-results>
