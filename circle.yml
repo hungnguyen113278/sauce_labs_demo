@@ -13,6 +13,6 @@ test:
     - while [ ! -e ~/sauce_is_ready ]; do sleep 1; done
     - cp src/resource/runRegression.xml ./runRegression.xml
     - ls
-    - javac -classpath .:lib/* runRegression.xml
+    - javac -classpath .:bin/* runRegression.xml
   post:
     - killall --wait sc  # wait for Sauce Connect to close the tunnel
